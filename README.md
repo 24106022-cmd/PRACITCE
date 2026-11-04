@@ -2,6 +2,7 @@
 
 
 **Experiment 1: Jira Board and Sprint Management**
+
 Theory:
 Agile Software Development is an iterative and incremental approach to software development in which a project is divided into smaller parts called iterations or sprints. It focuses on customer satisfaction, teamwork, continuous feedback, and delivering working software frequently.
 
@@ -39,6 +40,7 @@ Q3. How is the Sprint Process carried out in an Agile Team?
 6. Next Sprint         : The process repeats with the updated backlog.
 
 **Experiment 2: Jira and GitHub Integration**
+
 Theory:
 Jira and GitHub Integration connects Jira project management with GitHub version control. Jira is used to manage issues and tasks, while GitHub is used to store and manage source code.
 Every Jira issue has a unique issue key, such as ASDD-101. Developers can include this issue key in their GitHub branch names, commit messages, and pull requests.
@@ -68,6 +70,7 @@ Benefits:
 
 
 **Experiment 3: Git Commands and Version Control**
+
 Theory:
 Git is a distributed version control system used to track changes in source code. It allows multiple developers to work on the same project and maintain different versions of files.
 
@@ -121,6 +124,7 @@ Advantages:
 
 
 **Experiment 4: Docker Image Management and Container Execution**
+
 Theory:
 Docker is an open-source platform used to develop, package, and run applications inside containers. Containers provide an isolated environment containing the application and its dependencies.
 
@@ -163,7 +167,8 @@ The Docker engine reads the Dockerfile instructions, executes them, and creates 
 
 
 **Experiment 5: Dockerfile Creation and Image Building**
-Theory
+
+Theory:
 A Dockerfile is a text file containing instructions used to build a Docker image. It defines the application environment, dependencies, files, and commands required to run an application inside a Docker container.
 
 Docker uses the Dockerfile to automatically build images, making application deployment consistent and repeatable.
@@ -197,7 +202,8 @@ This Dockerfile creates a Python environment, copies application files, installs
 
 
 **Experiment 6: Terraform and GitHub Actions**
-Theory
+
+Theory:
 Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp. It is used to create, manage, and provision infrastructure such as virtual machines, networks, and cloud resources using configuration files.
 
 Terraform uses HashiCorp Configuration Language (HCL) to define infrastructure in a declarative manner. This means the user specifies the desired infrastructure, and Terraform determines the steps required to achieve it.
@@ -238,7 +244,8 @@ terraform destroy is used when the managed infrastructure needs to be removed.
 
 
 **Experiment 7: Grafana Using Docker**
-Theory
+
+Theory:
 Grafana is an open-source monitoring and data visualization platform used to analyze and display data through interactive dashboards.
 
 It helps DevOps engineers monitor applications, servers, infrastructure, and system performance.
@@ -288,7 +295,7 @@ Dockerfile  :	File containing instructions to build a Docker image.
 Terraform	  : Infrastructure as Code tool used to provision infrastructure.
 Grafana	    : Monitoring and visualization platform.
 
-Most Important Commands for Practical Exam
+**Most Important Commands for Practical Exam**
 Git
 git clone URL
 git checkout -b branch_name
