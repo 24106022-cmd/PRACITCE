@@ -279,20 +279,35 @@ Uses in DevOps:
 Example: Grafana can display Kubernetes pod CPU and memory usage using metrics collected by Prometheus.
 
 **Quick Revision: Important Concepts**
+
 Agile	      : Iterative software development approach focused on collaboration and continuous delivery.
+
 Scrum	      : Agile framework that organizes work into sprints.
+
 Sprint      : Fixed period during which a team completes selected work.
+
 Velocity    :	Amount of work a Scrum team completes in a sprint, commonly measured in story points.
+
 Jira        :	Project management tool used to track tasks and Agile workflows.
+
 Git	        : Distributed version control system.
+
 GitHub      :	Platform for hosting Git repositories and collaboration.
+
 CI          :	Continuous Integration; automatically integrates and tests code changes.
+
 CD	        : Continuous Delivery or Continuous Deployment; automates software release processes.
+
 Docker      :	Platform for building and running applications in containers.
+
 Image	      : Template used to create Docker containers.
+
 Container   :	Isolated running instance of an image.
+
 Dockerfile  :	File containing instructions to build a Docker image.
+
 Terraform	  : Infrastructure as Code tool used to provision infrastructure.
+
 Grafana	    : Monitoring and visualization platform.
 
 **Most Important Commands for Practical Exam**
