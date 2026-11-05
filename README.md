@@ -344,3 +344,201 @@ terraform apply
 Grafana
 docker pull grafana/grafana
 docker run -d -p 3001:3000 grafana/grafana
+
+
+
+1. Agile Software Development
+Q1. What is Agile?
+Agile is a software development approach in which software is developed in small increments with continuous testing, feedback, and improvement.
+Q2. What is the Agile Manifesto?
+The Agile Manifesto is a document that defines the values and principles of Agile software development.
+
+It has 4 values and 12 principles.
+
+Four values:
+1. Individuals and interactions over processes and tools.
+2. Working software over comprehensive documentation.
+3. Customer collaboration over contract negotiation.
+4. Responding to change over following a plan.
+
+   
+Q3. What are the 12 principles of Agile?
+1. Satisfy customers through early and continuous delivery.
+2. Welcome changing requirements, even late in development.
+3. Deliver working software frequently.
+4. Business people and developers work together daily.
+5. Build projects around motivated individuals.
+6. Face-to-face communication is the most effective.
+7. Working software is the main measure of progress.
+8. Maintain a sustainable development pace.
+9. Focus on technical excellence and good design.
+10. Keep things simple.
+11. Self-organizing teams produce the best designs.
+12. Regularly reflect and improve the process.
+
+    
+Q4. What is the Waterfall Model?
+The Waterfall Model is a traditional software development model in which development happens sequentially, and each phase is completed before the next phase begins.
+
+Stages of Waterfall:
+1. Requirement Analysis
+2. System Design
+3. Implementation (Coding)
+4. Testing
+5. Deployment
+6. Maintenance
+Q5. What is Feature-Driven Development (FDD)?
+FDD is an Agile methodology that develops software by focusing on small, client-valued features.
+
+Example: In an online shopping application, login, payment, and product search are separate features.
+
+2. Scrum
+Q6. What is Scrum?
+Scrum is an Agile framework used to develop software in small iterations called Sprints.
+Q7. What are the Scrum models or frameworks?
+Scrum is an Agile framework. Its main elements are:
+- Scrum roles
+- Scrum events
+- Scrum artifacts
+It works through iterative development using Sprints.
+Q8. Who are the members of a Scrum team?
+There are three main Scrum roles:
+1. Product Owner: Defines requirements and prioritizes the product backlog.
+2. Scrum Master: Ensures Scrum is followed and removes obstacles.
+3. Developers: Develop, test, and deliver the product.
+
+   
+Q9. What is a Sprint?
+A Sprint is a fixed period, usually 1–4 weeks, during which the team completes selected work and delivers a usable product increment.
+
+Q10. What is the Sprint Process?
+
+1. Sprint Planning
+2. Sprint Backlog Creation
+3. Development and Daily Scrum
+4. Testing
+5. Sprint Review
+6. Sprint Retrospective
+Then the next Sprint begins.
+Q11. What is a Product Backlog?
+The Product Backlog is a prioritized list of all features, requirements, and improvements needed in a product.
+Q12. What is a Sprint Backlog?
+The Sprint Backlog is a list of tasks selected from the Product Backlog that the team plans to complete during a Sprint.
+
+Difference:
+Product Backlog	Sprint Backlog
+Contains all product requirements.	Contains work for the current Sprint.
+Managed by Product Owner.	Managed by Developers.
+Changes continuously.	Focuses on the current Sprint.
+
+Q13. What is Velocity in Scrum?
+Velocity is the amount of work a team completes during one Sprint, usually measured in story points.
+
+It helps estimate the work for future Sprints.
+Q14. What is Planning Poker?
+Planning Poker is an Agile estimation technique used to estimate the effort or complexity of tasks.
+
+Team members select cards with numbers, often Fibonacci numbers, and discuss differences in estimates.
+Q15. What is a User Story?
+A User Story describes a software feature from the user's perspective.
+
+Format:
+
+"As a [user], I want [feature], so that [benefit]."
+
+Example: As a student, I want to view my attendance so that I can track my attendance percentage.
+
+3. Jira, Git, GitHub, and CI/CD
+Q16. What is Jira?
+Jira is a project management and issue-tracking tool used to manage tasks, bugs, and Agile Sprints.
+Q17. What is Git?
+Git is a distributed version control system used to track changes in source code and manage different versions of a project.
+Q18. What is GitHub?
+GitHub is an online platform used to host Git repositories and collaborate with other developers.
+
+Difference between Git and GitHub:
+Git	GitHub
+Version control system.	Online code hosting platform.
+Works locally.	Works mainly online.
+Tracks code changes.	Stores repositories and supports collaboration.
+
+Q19. What is CI/CD?
+CI/CD stands for:
+- CI – Continuous Integration: Frequently merging and testing code changes.
+- CD – Continuous Delivery/Deployment: Automatically preparing or deploying software updates.
+Q20. What is a CI/CD Pipeline?
+A CI/CD pipeline is an automated process that takes code from development to testing and deployment.
+
+Basic stages:
+1. Code
+2. Build
+3. Test
+4. Deploy
+
+4. Docker
+Q21. What is Docker?
+Docker is a platform used to package and run applications inside containers.
+
+Containers make applications easier to run consistently across different environments.
+Q22. What is a Docker Image?
+A Docker Image is a read-only template containing the application, dependencies, and instructions required to create a container.
+Q23. What is a Docker Container?
+A Docker Container is a running instance of a Docker Image.
+
+Difference:
+Docker Image	Docker Container
+Template or blueprint.	Running instance of the image.
+Read-only.	Has a writable layer.
+Used to create containers.	Used to run applications.
+
+
+5. DevOps
+Q24. What is DevOps?
+DevOps is a combination of Development and Operations practices that improves collaboration and automates software development, testing, and deployment.
+
+Q25. What are the 7 Cs of DevOps?
+The commonly taught 7 Cs are:
+1. Continuous Development: Frequently develop and update code.
+2. Continuous Integration: Regularly merge and integrate code.
+3. Continuous Testing: Test software continuously.
+4. Continuous Deployment: Deploy software automatically.
+5. Continuous Delivery: Keep software ready for release.
+6. Continuous Monitoring: Monitor application performance and errors.
+7. Continuous Feedback: Collect feedback for improvement.
+Note: Some textbooks use slightly different versions of the 7 Cs.
+
+
+
+Q26. What is the DevOps Lifecycle?
+The DevOps lifecycle consists of:
+1. Plan
+2. Code
+3. Build
+4. Test
+5. Release
+6. Deploy
+7. Operate
+8. Monitor
+It is a continuous cycle of development and improvement.
+
+6. Extreme Programming (XP)
+Q27. What is Extreme Programming (XP)?
+Extreme Programming is an Agile software development methodology that focuses on high-quality software, frequent releases, and customer satisfaction.
+
+Q28. What are the main practices of XP?
+- Pair Programming
+- Test-Driven Development (TDD)
+- Continuous Integration
+- Small Releases
+- Simple Design
+- Refactoring
+- Customer Feedback
+  
+Q29. What is Pair Programming?
+Pair Programming is a technique in which two programmers work together on the same computer.
+One writes the code (Driver), while the other reviews it (Navigator).
+
+Q30. What is Test-Driven Development (TDD)?
+TDD is a development approach in which developers write tests before writing the actual code.
+
+Process: Write Test → Write Code → Refactor.
